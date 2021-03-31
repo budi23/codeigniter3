@@ -1,0 +1,4 @@
+#membuat ip dinamis tanpa menulis manual ip webserver
+$_SERVER['HTTP_HOST']
+contoh :
+$config['base_url']     = "http://" . $_SERVER['HTTP_HOST'] . "/shopping/";
